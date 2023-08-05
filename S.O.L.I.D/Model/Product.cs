@@ -1,16 +1,16 @@
 ﻿namespace S.O.L.I.D.Model
 {
-    internal enum Size
+    public enum Size
     {
         Small, Medium, Large, Yuge
     }
-    internal enum Color
+    public enum Color
     {
         White,
         Green,
         Blue
     }
-    internal class Product
+    public class Product
     {
         public string Name;
         public Color Color;
